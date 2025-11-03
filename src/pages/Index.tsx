@@ -24,24 +24,24 @@ interface Equipment {
 const equipmentData: Equipment[] = [
   {
     id: 1,
-    name: 'Экскаватор гусеничный',
-    category: 'Земляные работы',
-    pricePerDay: 25000,
-    pricePerWeek: 150000,
-    pricePerMonth: 500000,
-    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/83869ced-f00e-45aa-b62c-c6299e02ab19.jpg',
-    specs: ['Глубина копания: 6.5 м', 'Вместимость ковша: 1.2 м³', 'Мощность: 120 л.с.'],
+    name: 'Автокран 16 тн - 18 метров',
+    category: 'Автокраны',
+    pricePerDay: 28000,
+    pricePerWeek: 168000,
+    pricePerMonth: 560000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 16 т', 'Вылет стрелы: 18 м', 'Высота подъема: 22 м'],
     available: true
   },
   {
     id: 2,
-    name: 'Автокран 25 тонн',
-    category: 'Грузоподъемная техника',
+    name: 'Автокран 25 тн - 21 метр',
+    category: 'Автокраны',
     pricePerDay: 35000,
     pricePerWeek: 210000,
     pricePerMonth: 700000,
     image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
-    specs: ['Грузоподъемность: 25 т', 'Вылет стрелы: 28 м', 'Высота подъема: 32 м'],
+    specs: ['Грузоподъемность: 25 т', 'Вылет стрелы: 21 м', 'Высота подъема: 28 м'],
     available: true
   },
   {
