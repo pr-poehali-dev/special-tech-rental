@@ -91,7 +91,7 @@ const equipmentData: Equipment[] = [
 ];
 
 const Index = () => {
-  const [selectedCategory, setSelectedCategory] = useState<string>('Все категории');
+  const [selectedCategory, setSelectedCategory] = useState<string>('Аренда спецтехники');
   const [selectedEquipment, setSelectedEquipment] = useState<Equipment | null>(null);
   const [formData, setFormData] = useState({
     name: '',
@@ -102,9 +102,9 @@ const Index = () => {
     message: ''
   });
 
-  const categories = ['Все категории', ...Array.from(new Set(equipmentData.map(eq => eq.category)))];
+  const categories = ['Аренда спецтехники', ...Array.from(new Set(equipmentData.map(eq => eq.category)))];
 
-  const filteredEquipment = selectedCategory === 'Все категории' 
+  const filteredEquipment = selectedCategory === 'Аренда спецтехники' 
     ? equipmentData 
     : equipmentData.filter(eq => eq.category === selectedCategory);
 
