@@ -119,7 +119,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Truck" size={32} className="text-primary" />
-            <span className="text-2xl font-bold text-secondary">СпецТехРент</span>
+            <span className="text-2xl font-bold text-secondary">ООО СпецСтрой</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#hero" className="text-foreground hover:text-primary transition-colors font-medium">Главная</a>
@@ -380,7 +380,7 @@ const Index = () => {
                   <Icon name="Mail" size={24} className="text-primary" />
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-gray-200">info@spectehrent.ru</div>
+                    <div className="text-gray-200">info@specstroy.ru</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -430,10 +430,10 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Icon name="Truck" size={24} className="text-primary" />
-            <span className="text-xl font-bold">СпецТехРент</span>
+            <span className="text-xl font-bold">ООО СпецСтрой</span>
           </div>
           <p className="text-gray-400">
-            © 2024 СпецТехРент. Все права защищены.
+            © 2024 ООО СпецСтрой. Все права защищены.
           </p>
         </div>
       </footer>
