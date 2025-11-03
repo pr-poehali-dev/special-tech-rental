@@ -46,6 +46,127 @@ const equipmentData: Equipment[] = [
   },
   {
     id: 3,
+    name: 'Автокран 25 тн - 28 метров',
+    category: 'Автокраны',
+    pricePerDay: 37000,
+    pricePerWeek: 222000,
+    pricePerMonth: 740000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 25 т', 'Вылет стрелы: 28 м', 'Высота подъема: 31 м'],
+    available: true
+  },
+  {
+    id: 4,
+    name: 'Автокран 30 тн - 52 метра',
+    category: 'Автокраны',
+    pricePerDay: 45000,
+    pricePerWeek: 270000,
+    pricePerMonth: 900000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 30 т', 'Вылет стрелы: 52 м', 'Высота подъема: 56 м'],
+    available: true
+  },
+  {
+    id: 5,
+    name: 'Автокран 32 тн - 31 метр',
+    category: 'Автокраны',
+    pricePerDay: 42000,
+    pricePerWeek: 252000,
+    pricePerMonth: 840000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 32 т', 'Вылет стрелы: 31 м', 'Высота подъема: 34 м'],
+    available: true
+  },
+  {
+    id: 6,
+    name: 'Автокран 40 тн - 52 метра',
+    category: 'Автокраны',
+    pricePerDay: 55000,
+    pricePerWeek: 330000,
+    pricePerMonth: 1100000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 40 т', 'Вылет стрелы: 52 м', 'Высота подъема: 56 м'],
+    available: true
+  },
+  {
+    id: 7,
+    name: 'Автокран 50 тн - 55 метров',
+    category: 'Автокраны',
+    pricePerDay: 65000,
+    pricePerWeek: 390000,
+    pricePerMonth: 1300000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 50 т', 'Вылет стрелы: 55 м', 'Высота подъема: 60 м'],
+    available: true
+  },
+  {
+    id: 8,
+    name: 'Автокран 60 тн',
+    category: 'Автокраны',
+    pricePerDay: 75000,
+    pricePerWeek: 450000,
+    pricePerMonth: 1500000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 60 т', 'Максимальная высота: 65 м', 'Стреловое оборудование'],
+    available: true
+  },
+  {
+    id: 9,
+    name: 'Автокран 70 тн',
+    category: 'Автокраны',
+    pricePerDay: 85000,
+    pricePerWeek: 510000,
+    pricePerMonth: 1700000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 70 т', 'Максимальная высота: 70 м', 'Телескопическая стрела'],
+    available: true
+  },
+  {
+    id: 10,
+    name: 'Автокран 80 тн',
+    category: 'Автокраны',
+    pricePerDay: 95000,
+    pricePerWeek: 570000,
+    pricePerMonth: 1900000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 80 т', 'Максимальная высота: 75 м', 'Усиленная конструкция'],
+    available: true
+  },
+  {
+    id: 11,
+    name: 'Автокран 90 тн',
+    category: 'Автокраны',
+    pricePerDay: 105000,
+    pricePerWeek: 630000,
+    pricePerMonth: 2100000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 90 т', 'Максимальная высота: 80 м', 'Современная система управления'],
+    available: true
+  },
+  {
+    id: 12,
+    name: 'Автокран 100 тн',
+    category: 'Автокраны',
+    pricePerDay: 120000,
+    pricePerWeek: 720000,
+    pricePerMonth: 2400000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 100 т', 'Максимальная высота: 85 м', 'Тяжелые грузоподъемные работы'],
+    available: true
+  },
+  {
+    id: 13,
+    name: 'Автокран 200-300 тн',
+    category: 'Автокраны',
+    pricePerDay: 250000,
+    pricePerWeek: 1500000,
+    pricePerMonth: 5000000,
+    image: 'https://cdn.poehali.dev/projects/436e8d22-751d-4d90-8c7a-6f8bdf7c5c21/files/bb24bac3-7574-4846-99b8-385999ffe732.jpg',
+    specs: ['Грузоподъемность: 200-300 т', 'Максимальная высота: 100+ м', 'Для крупных промышленных объектов'],
+    available: true
+  },
+  {
+    id: 14,
     name: 'Бульдозер гусеничный',
     category: 'Земляные работы',
     pricePerDay: 30000,
@@ -56,7 +177,7 @@ const equipmentData: Equipment[] = [
     available: true
   },
   {
-    id: 4,
+    id: 15,
     name: 'Погрузчик фронтальный',
     category: 'Погрузочная техника',
     pricePerDay: 20000,
@@ -67,7 +188,7 @@ const equipmentData: Equipment[] = [
     available: true
   },
   {
-    id: 5,
+    id: 16,
     name: 'Каток дорожный',
     category: 'Дорожная техника',
     pricePerDay: 18000,
@@ -78,7 +199,7 @@ const equipmentData: Equipment[] = [
     available: true
   },
   {
-    id: 6,
+    id: 17,
     name: 'Экскаватор-погрузчик',
     category: 'Универсальная техника',
     pricePerDay: 22000,
