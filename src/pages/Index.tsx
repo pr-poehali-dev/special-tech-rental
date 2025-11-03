@@ -195,7 +195,7 @@ const Index = () => {
 
       <section id="catalog" className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4 text-secondary">Каталог спецтехники</h2>
+          <h2 className="text-3xl font-bold text-center mb-4 text-secondary">Аренда спецтехники</h2>
           <p className="text-center text-gray-600 mb-12">Выберите необходимую технику для вашего проекта</p>
           
           <div className="flex flex-wrap justify-center gap-3 mb-12">
