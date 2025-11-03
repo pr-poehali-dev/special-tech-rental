@@ -196,19 +196,22 @@ const Index = () => {
       <section id="catalog" className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-4 text-secondary">Каталог спецтехники</h2>
-          <p className="text-center text-gray-600 mb-8">Выберите необходимую технику для вашего проекта</p>
+          <p className="text-center text-gray-600 mb-12">Выберите необходимую технику для вашего проекта</p>
           
-          <div className="flex justify-center mb-8">
-            <Select value={selectedCategory} onValueChange={setSelectedCategory}>
-              <SelectTrigger className="w-64">
-                <SelectValue placeholder="Выберите категорию" />
-              </SelectTrigger>
-              <SelectContent>
-                {categories.map(cat => (
-                  <SelectItem key={cat} value={cat}>{cat}</SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+          <div className="flex flex-wrap justify-center gap-3 mb-12">
+            {categories.map(cat => (
+              <button
+                key={cat}
+                onClick={() => setSelectedCategory(cat)}
+                className={`px-6 py-3 rounded-lg font-medium transition-all ${
+                  selectedCategory === cat 
+                    ? 'bg-primary text-white shadow-md' 
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
